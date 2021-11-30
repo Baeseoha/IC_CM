@@ -13,4 +13,22 @@ public class Sh_Controller {
 		
 		return "icpage/index";
 	}
+	
+	
+	@RequestMapping("/blog")
+	public String blog(Model model) {
+		
+		return "icpage/blog";
+	}
+	
+	@RequestMapping("/blog1")
+	public String blog1(Model model) {
+		
+		return "icpage/blog1";
+	}
+	@RequestMapping("/blog3")
+	public String blog3(Model model) {
+		
+		return "icpage/blog3";
+	}
 }
