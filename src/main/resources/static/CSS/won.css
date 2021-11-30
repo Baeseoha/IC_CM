@@ -1,0 +1,455 @@
+#titleCenter{
+	text-align:center;
+}
+
+/* stockReview, reviewUpdate */
+#page-content{
+   margin:auto;
+   max-width:1140px;
+}
+
+
+.sr_headTable {  
+	width:20%;
+	background-color:#eeeeee;
+}
+
+th {
+	min-width:50px;
+}
+
+/* serviceCenter */
+
+#sr_table, #q_table{
+	border-top:2px solid #C19DCE;
+}
+
+
+#sc_table{
+	border-top:2px solid #5f0080;
+}
+
+#btnStyle{
+	border:0;
+	outline:0;
+	background-color:white;
+}
+
+#btnStyle:hover{
+	background-color:#ECECEC;
+}
+
+#reviewContent, #questionContent {
+	display:none;
+	padding-left:10px;
+}
+
+#footTop {
+	height:230px;
+	background-color: #FEEBFD;
+}
+
+#footBottom{
+	height:70px;
+	border:1px solid red;
+}
+
+.sd_td {
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+
+#sd_h3 {
+	display:inline-block;
+	padding-left:5px;
+}
+
+#sd_secPrice {
+	float:right;
+}
+
+#sd_btn {
+	width:100%;
+	height:60px;
+	color: white;
+	background-color: #5f0080;
+	border-radius:10px;
+}
+
+#sd_basket_letter {
+	font-size:1.5em;
+	color:white;
+}
+
+
+
+.product-title {
+	text-align:center;
+	
+}
+
+.info-mellon {
+	float:left;
+	font-size: 1.5em;
+	width:95%;
+}
+
+.sd_hr_check{
+	display:inline-block;
+	width:20px;
+}
+
+.ICMallCheck{
+	display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 50px;
+    margin: 8px 0px;
+}
+
+.ICMallCheck::before,
+.ICMallCheck::after{
+	content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+}
+
+#info-nav {
+	position:relative;
+	width:100%;
+	max-width:1110px !important;
+	color:black;
+	
+	
+}
+
+
+img { /* ICMall CheckPoint, 상품상세설명 멜론 이미지 */
+	width: 90%;
+	}
+
+	
+	/* 반응형 웹 수동작업*/
+@media screen and (max-width:960px){ 
+	
+	#info-nav{ /* 상품상세설명 nav static */
+	position:static;
+	font-size:0.8em;
+	}
+	
+	#info-nav-3items {
+	text-align:center;
+	}
+	
+	.nav-info-mellon {
+	color: black;
+	font-weight: bold; 
+	font-size:0.7em;
+	padding:2px 0px;
+	width:100%;
+	background-color: #FAFAFA;
+}
+	
+	.ICMallCheck{
+		display: flex;
+	    flex-basis: 100%;
+	    align-items: center;
+	    color: rgba(0, 0, 0, 0.55);
+	    font-size: 30px;
+	    margin: 8px 0px;
+	    min-width:100px;
+	}
+	
+	img { /* ICMall CheckPoint, 상품상세설명 멜론 이미지 */
+	width: 100%;
+	}
+	
+	
+}
+/* 상품설명 상품후기 상품Q&A nav*/
+
+#sd_info {
+	position:relative;
+	background-color: #FAFAFA;
+	padding:10px 20px;
+ 	font-size:2em;
+ 	border:1px solid black;
+}
+
+#info-nav-3items {
+	text-align:center;	
+	margin:auto;
+}
+
+.nav-item-mellon {
+	margin:auto;
+	padding:12px 0px;
+}
+
+.nav-info-mellon {
+	color: black;
+	font-weight: bold; 
+	font-size:2em;
+	float:left;
+	width:33.33%;
+	padding:20px 0px;
+	background-color: #FAFAFA;
+}
+
+
+
+.nav-info-mellon:hover {
+	color: #5f0080 !important;
+}
+
+.nav-info-mellon:focus {
+	color: #5f0080 !important;
+}
+
+
+
+/* 리뷰 Q&A */
+
+.review, #question {
+	width:100%;
+}
+
+/* 구간 나누기*/
+.sep-10{
+	width:10%;
+}
+.sep-15{
+	width:15%;
+}
+.sep-45{
+	width:45%;
+}
+
+.sep-70{
+	width:70%;
+	margin:auto;
+	display:inline-block;
+}
+
+.sep-30{
+	width:30%;
+	margin:auto;
+	display:inline-block;
+}
+
+
+/* 장바구니 */
+.basketTest{
+	display:inline-block;
+}
+
+#sectionTest{
+	margin:auto;
+	padding-right:300px;
+	text-align:center;
+}
+
+.basketImg{
+	width:50px;
+	height:70px;
+}
+
+.basketT{
+	
+	font-weight:bold;
+}
+.w-50{
+	width:50%;
+}
+.w-100{
+	width:100%;
+}
+.w-m-t-50
+	{margin-top:50px;}
+/* ------------------ 모바일 -------------------------------------*/
+@media (max-width: 992px){
+	.w-m-t-50 {
+		margin-top:0px;}
+}
+
+	
+.basketT2{
+	padding:2px 20px;
+	font-weight:bold;
+	min-width:120px;
+}
+
+.basketSubName { color:black;}
+/* ------------------ 모바일 -------------------------------------*/
+@media (max-width: 992px){
+	.basketSubName {
+		font-size:11px;}
+}
+
+.basketSubName:hover { color: #5f0080 !important;}
+
+#basketDiv{
+	text-align:center;
+}
+
+#adressDiv {
+	position:absolute;
+	top:100px;
+	text-align:left;
+	padding-left:30px;
+	margin:0;
+}
+
+.adrBtn {
+	width:100%;
+	height:5px;
+	color:#5f0080;
+	background-color:white;
+	border:1px solid #5f0080;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+#paymentDiv {
+	background-color:#FAFAFA;
+	padding:10px;
+}
+
+#orderBtn1{
+	padding:10px 15px 5px 15px;
+	background-color:#FAFAFA;
+	text-align:center;
+	vertical-align:middle;
+	border-radius:5px;
+}
+
+#orderBtn2{
+	text-align:center;
+	border-radius:5px;
+	width:100%;
+	display:none;
+}
+
+
+/* 관리자 메인 페이지*/
+
+/* 주문관리 */
+.ai_sec{ /* 주문관리 카운트하는 숫자*/
+   padding-left:100px;
+   padding-bottom:20px;
+   font-size:1.2em;
+   font-weight:bold;
+}
+
+.ai_tab, .ai_tab1, .ai_tab2{/* 주문관리 */
+   border:1px solid #9C9C9C;
+   border-collapse:collpase;
+}
+
+
+.ai_tab{ /* 주문관리 */
+   width:90%;
+   max-width:600px;
+   min-width:50px;
+}
+
+.ai_tab1, .ai_tab2 { /* 주문관리 */
+   padding-top:10px;
+}
+
+.ai_tab1{ /* 주문관리 */
+   padding-top:10px;
+   border-top:3px solid #9C9C9C;
+}
+
+.ai_title{ /* 주문관리 주문현황 타이틀 */
+   color:black;
+   padding-left:8px;
+   font-weight:bold;
+   font-size:1.5em;
+   color:#C7C7C7;
+}
+
+/* 문의/답변 관리 */
+.ai_title2{ /* 문의/답변관리 상품후기 문의하기 */
+   color:black;
+   font-size:1em;
+   font-weight:bold;
+}
+
+.ai_secTab1{ /*  문의/답변관리 상품후기 문의하기 */
+   border-top:2px solid gray;
+}
+
+.ai_secTab2, .ai_secTab1{ /*  문의/답변관리 상품후기 문의하기 */
+   padding-top:3px;
+}
+
+.ai_cnt{ /* 문의 카운트 */
+   color:#FD6A66;
+}
+
+#ai_secTab1-1{ /* 상품후기 패딩값 주기*/
+   padding-top:10px;
+   padding-right:120px;
+}
+
+
+/* 회원현황 */
+#memberTable{ /* 현황 테이블 */
+   border: 1px solid #BCBCBC;
+   margin-left:18px;
+}
+
+#orderTitel_admin{
+   font-size:1.8em;
+}
+
+#qutTitle_admin{
+   font-size:1.8em;
+   font-weight:bold;
+   padding-right:150px;
+}
+
+.qutTitle2_admin{
+   font-size:1.8em;
+   font-weight:bold;
+   margin-left:18px;
+   padding-top:20px;
+   padding-bottom:20px;
+   min-width:100px;
+   
+}
+.ai_tapHead{
+   background-color:#BCBCBC;
+   color:white;
+   font-size:1.3em;
+   font-weight:bold;
+   text-align:center;
+}
+
+.ai_tapHead2{
+   text-align:center;
+}
+
+.ai_tapD2{
+   text-align:right;
+}
+
+/* questionInfo css*/
+
+.centerSetting{
+	padding-left:200px;
+	width:55%;
+}
+
+#q_handler{
+	height:200px;
+	vertical-align:middle;
+}
