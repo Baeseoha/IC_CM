@@ -12,7 +12,7 @@
 <meta name="author" content="INSPIRO" />
 <meta name="description" content="Themeforest Template Polo">
 <!-- Document title -->
-<title>I.C Mall</title>
+<title>I.C Community</title>
 <!-- Stylesheets & Fonts -->
 <link href="${pageContext.request.contextPath }/CSS/plugins.css"
 	type="text/css" rel="stylesheet">
@@ -36,19 +36,19 @@
 
 			<!-- Slide 1 -->
 			<div class="slide background-image"
-				style="background-image: url('https://cdn.pixabay.com/photo/2018/09/14/11/12/food-3676796_1280.jpg');">
+				style="background-image: url('https://cdn.pixabay.com/photo/2018/02/15/18/29/devops-3155972_1280.jpg');">
 				<div class="bg-overlay"></div>
 				<div class="container">
 					<div class="slide-captions text-center text-light">
 						<!-- Captions -->
 						<span class="strong"><a href="#" class="business"><span
-								class="business">정육 계란</span></a> </span>
-						<h1>넉넉하게 준비하세요</h1>
-						<button type="button" class="btn index-button">
+								class="business">++</span></a> </span>
+						<h1>JAVA, Python, C, Kotlin</h1>
+						<!-- <button type="button" class="btn index-button">
 							<span class="btn-label"><i class="fa fa-check"></i></span><a class="" href="meat">더
 							알아보기</a>
 						</button>
-						<button type="button" class="btn index-button"><a class="" href="meat">구매하기</a></button>
+						<button type="button" class="btn index-button"><a class="" href="meat">aws</a></button> -->
 						<!-- end: Captions -->
 					</div>
 				</div>
@@ -57,20 +57,20 @@
 
 			<!-- Slide 2 -->
 			<div class="slide background-image"
-				style="background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_1280.jpg');">
+				style="background-image: url('https://cdn.pixabay.com/photo/2018/02/12/13/58/devops-3148393_1280.png');">
 				<div class="bg-overlay"></div>
 				<div class="container">
 					<div class="slide-captions text-left text-light">
 						<!-- Captions -->
 						<span class="strong"><a href="#" class="business"><span
-								class="business">신선한 야채</span></a> </span>
-						<h1>하루 배송으로 신선한 야채를</h1>
-						<button type="button" class="btn index-button">
+								class="business">++</span></a> </span>
+						<h1>JAVA, C+, C#, Kotlin</h1>
+						<!-- <button type="button" class="btn index-button">
 							<span class="btn-label"><i class="fa fa-check"></i></span>
 							<a class="" href="vegetable">더
 							알아보기</a>
 						</button>
-						<button type="button" class="btn index-button"><a class="" href="vegetable">구매하기</a></button>
+						<button type="button" class="btn index-button"><a class="" href="vegetable">aws</a></button> -->
 						<!-- end: Captions -->
 					</div>
 				</div>

@@ -50,18 +50,18 @@
                      <c:choose>
                        <c:when test="${user == null }">
                            <ul class="top-menu" style="float:right">
-                               <li><a href="/icmall/all/join">회원가입</a></li>
-                               <li><a href="/icmall/all/loginForm">로그인</a></li>
-                               <li><a href="/icmall/all/serviceCenter">고객센터</a></li>
+                               <li><a href="/icpage/join">SIGN UP</a></li>
+                               <li><a href="/icpage/signin">SIGN IN</a></li>
+                             <!--   <li><a href="/icmall/all/serviceCenter">Service Center</a></li> -->
                            </ul>
                        </c:when>
                        <c:otherwise>
                            <ul class="top-menu" style="float:right">
                            <c:if test="${auth.m_auth == 'ROLE_ADMIN' }">
-                           		<li><a href="/icmall_admin/admin/adminIndex">관리자페이지</a></li>
+                           		<li><a href="/icmall_admin/admin/adminIndex">ADMIN</a></li>
                            </c:if>
-                               <li><a href="/icmall/user/myPage">마이페이지</a></li>
-                               <li><a href="/icmall/all/serviceCenter">고객센터</a></li>
+                               <li><a href="/icmall/user/myPage">MYPAGE</a></li>
+                           <!--     <li><a href="/icmall/all/serviceCenter">Service Center</a></li> -->
                            </ul>
 
                        </c:otherwise>
@@ -74,18 +74,18 @@
 
         <!-- Header -->
         <header id="header" data-transparent="true" class="header-logo-center" style="">
-             <div class="header-inner">
+             <div class="header-inner" style="width:50% !important; ">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="/icmall/all/index">
-                            <span class="logo-default">IC MALL</span>
+                        <a href="/icpage/index">
+                            <span class="logo-default">IC Community</span>
                           
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="header-inner">
+            <div class="header-inner" style="">
             <div class="container">
  
                     <!--Navigation Resposnive Trigger-->
@@ -99,14 +99,14 @@
                             <nav>
                                 <!--Left Menu-->
                                 <ul>
-                                    <li><a href="/icmall/all/vegetable">채소</a></li>
-                                    <li><a href="/icmall/all/fruit">과일</a></li>
-                                    <li><a href="/icmall/all/meat">정육</a></li>
-                                    <li><a href="/icmall/all/snack">간식</a></li>
-                                    <li><a href="/icmall/all/health">건강식품</a></li>
+                                    <li><a href="/icmall/all/vegetable">JAVA</a></li>
+                                    <li><a href="/icmall/all/fruit">PYTHON</a></li>
+                                    <li><a href="/icmall/all/meat">C</a></li>
+                  
+                                    <li><a href="/icmall/all/health">Kotlin</a></li>
                                 </ul>
                                 <!--Right Menu-->
-                                <ul>
+                               <!--  <ul>
                                
                                    <form action="searchOk" name="search" method="get" onsubmit="return keyword_check()" class="form-inline my-2 my-lg-0 m-t-20 m-r-60 m-d-none" id="mall_serch_form">
                                    <input name="keyword" class="form-control mr-sm-2" id="mall_search" placeholder="검색어를 입력해주세요" aria-label="검색어를 입력해주세요" type="search"> 
@@ -115,7 +115,7 @@
                            		 </form>
                            		
                           
-                                </ul>
+                                </ul> -->
                             </nav>
                         </div>
                     </div>

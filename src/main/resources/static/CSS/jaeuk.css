@@ -28,7 +28,7 @@ p {
 }
 
 .f1 {
-	color: purple;
+	color: #2250fc;
 	font-size: 3px;
 }
 
@@ -70,7 +70,7 @@ p {
 	text-align: left;
 	margin-left: 0px;
 	color: black;
-	background-color: #5f0080;
+	background-color: #2250fc;
 	height: 1px;
 }
 
@@ -115,10 +115,10 @@ button.idbtn, .idbtn:not(.close):not(.mfp-close), a.idbtn:not([href]):not([tabin
 	position: relative;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	border-color: #5f0080;
+	border-color: #2250fc;
 	border-width: 1px;
 	border-style: solid;
-	color: #5f0080;
+	color: #2250fc;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-bottom: 6px;
@@ -140,10 +140,10 @@ button#adressbtn, #adressbtn:not(.close):not(.mfp-close), a#adressbtn:not([href]
 	position: relative;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	border-color: #5f0080;
+	border-color: #2250fc;
 	border-width: 1px;
 	border-style: solid;
-	color: #5f0080;
+	color: #2250fc;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-bottom: 6px;
@@ -165,10 +165,10 @@ button#datebtn, #datebtn:not(.close):not(.mfp-close), a#datebtn:not([href]):not(
 	position: relative;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	border-color: #5f0080;
+	border-color: #2250fc;
 	border-width: 1px;
 	border-style: solid;
-	color: #5f0080;
+	color: #2250fc;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-bottom: 6px;
@@ -189,8 +189,8 @@ button.upbtn, .upbtn:not(.close):not(.mfp-close), a.upbtn:not([href]):not([tabin
 	padding: 12px 18px;
 	position: relative;
 	text-transform: uppercase;
-	background-color: #5f0080;
-	border-color: #5f0080;
+	background-color: #2250fc;
+	border-color: #2250fc;
 	border-width: 1px;
 	border-style: solid;
 	color: #ffffff;
